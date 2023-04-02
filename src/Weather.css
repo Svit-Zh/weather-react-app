@@ -1,0 +1,74 @@
+.btn-secondary {
+  background-color: #076470 !important;
+  border-radius: 10px;
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+  color: #222222;
+}
+.weather h1 {
+  font-size: 32px;
+  line-height: 30px;
+  margin: 20px 0 5px;
+}
+.weather p {
+  font-size: 18px;
+}
+.weather ul {
+  margin: 0;
+  padding: 0;
+}
+.weather li {
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.weather canvas {
+  margin-top: 8px;
+}
+.weather-current {
+  margin-top: 20px;
+}
+.current-max {
+  font-weight: 600;
+}
+
+.temperature-today {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.temperature-today-unit {
+  position: relative;
+  top: -30px;
+}
+.temperature-today-unit a {
+  text-decoration: none;
+  color: #076470;
+}
+.weather-additional p {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #222222;
+}
+.weather-additional {
+  border-radius: 20px;
+  border: 1px solid #c0931f;
+  margin: 0 10px;
+  padding: 10px 0;
+}
+
+.App-footer p {
+  font-size: 12px;
+  margin: 0;
+}
+.App-footer a {
+  font-size: 12px;
+  color: #c0931f;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: 600;
+  color: #c0931f !important;
+}
