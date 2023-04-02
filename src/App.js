@@ -19,7 +19,7 @@ export default function App() {
           using ReactJS{" "}
           <img src="./logo192.png" alt="React logo" class="App-logo" /> and is{" "}
           <a
-            href="https://github.com/Svit-Zh/my-app"
+            href="https://github.com/Svit-Zh/weather-react-app"
             target="blank"
             rel="no-referrer"
           >
