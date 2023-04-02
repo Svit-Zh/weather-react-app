@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./Weather.css";
+import Search from "./Search";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="App container">
+      <Search />
+      <footer className="App-footer">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This application was coded by{" "}
+          <a
+            href="https://coding-portfolio-svitlana-zhyhulina.netlify.app/"
+            target="blank"
+            rel="no-referrer"
+          >
+            Svitlana Zhyhulina
+          </a>{" "}
+          using ReactJS{" "}
+          <img src="./logo192.png" alt="React logo" class="App-logo" /> and is{" "}
+          <a
+            href="https://github.com/Svit-Zh/my-app"
+            target="blank"
+            rel="no-referrer"
+          >
+            open-sourced
+          </a>{" "}
+          on GitHub
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </footer>
     </div>
   );
 }
-
-export default App;
